@@ -54,15 +54,6 @@ body {
   position: relative;
 }
 
-.problem-quote blockquote::before {
-  content: "“";
-  font-size: 4rem;
-  color: #ddd;
-  position: absolute;
-  left: -20px;
-  top: -20px;
-}
-
 /* grid layout for cards */
 .problem-grid {
   display: grid;

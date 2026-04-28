@@ -33,6 +33,7 @@ export default function Home() {
             </p>
 
             <div className="features">
+              <span>A "number's game"</span>
               <span>Envisions an ideal outcome</span>
               <span>Follows structured plans</span>
               <span>Focuses on results</span>
@@ -44,17 +45,18 @@ export default function Home() {
           <div className="card">
             <h3>A Gardener</h3>
             <p>
-              A nurturing approach that supports growth and understand pace.
+              A nurturing approach that supports growth and understands pace.
               It provides a safe space in which unexpected things can happen; encouraging
               exploration, freedom, and creativity. 
-              To perserve the youth and childhood, but allowing them to blossom
+              To perserve the youth and childhood, but allowing them to blossom.
             </p>
             <div className="features">
                 <span>Adapts to change</span>
                 <span>Encourages exploration</span>
                 <span>Supports emotional growth</span>
                 <span>Embraces unpredictability</span>
-                <span>Own pace, own growth</span>
+                <span>Own pace</span>
+                <span>Own growth</span>
             </div>
           </div>
 

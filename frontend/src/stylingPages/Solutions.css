@@ -1,0 +1,96 @@
+.solutions-page {
+  font-family: system-ui, sans-serif;
+}
+
+/* hero */
+.solutions-hero {
+  text-align: center;
+  padding: 180px 20px 200px;
+}
+
+.solutions-hero h1 {
+  font-size: 2.5rem;
+}
+
+.solutions-hero h2 {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* sections */
+.section {
+  min-height: 160vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+}
+
+.section.alt {
+  background: #f5f5f5;
+}
+
+.content {
+  max-width: 700px;
+  text-align: left;
+}
+
+.content h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.content p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.content ul {
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.impact {
+  font-weight: 500;
+  color: #444;
+}
+
+/* quote */
+.quote {
+  text-align: center;
+}
+
+.quote blockquote {
+  font-style: italic;
+  font-size: 1.2rem;
+  max-width: 600px;
+}
+
+.ideas {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.idea-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.idea-label {
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: #888;
+  min-width: 30px;
+}
+
+.idea-row p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+
