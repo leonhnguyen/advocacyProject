@@ -1,12 +1,11 @@
 import { Link } from "react-router-dom";
-import "./App.css";
+import "../stylingPages/Home.css";
 
 export default function Home() {
     
   return (
     <div className="home-container">
-      
-  
+
         <section className="hero">
             <h1>A Peaceful Home Allows for a Peaceful Mind</h1>
             <p>
@@ -18,47 +17,50 @@ export default function Home() {
         </section>
 
       <section className="concept">
-        <h2>Parenting Roles</h2>
+        <h2>PARENTING ROLES</h2>
 
         <div className="cards">
           
           <div className="card">
-            <h3>Carpenter</h3>
+            <h3>THE Carpenter</h3>
             <p>
-              A structured approach focused on shaping a child into a particular, desirable adult(ideal outcome).
+              A structured approach focused on shaping a child into a particular, desirable adult (ideal outcome).
               It emphasizes control, planning by getting the right skills, reading the right books, believing
               doing the right things. How children are rewarded if a carpenter role is applied. 
               It strips away the point of Childhood: bringing new ideas to the world, new ways of understanding the world.
             </p>
-            <ul>
-                <li>Envisions a an ideal creation.</li>
-                <li>Follows strict plans</li>
-                <li>Focuses on outcomes</li>
-                <li>Limits creativity</li>
-            </ul>
+
+            <div className="features">
+              <span>Envisions an ideal outcome</span>
+              <span>Follows structured plans</span>
+              <span>Focuses on results</span>
+              <span>Limits creativity</span>
+            </div>
+
           </div>
 
-          {/* Gardener */}
           <div className="card">
-            <h3>Gardener</h3>
+            <h3>A Gardener</h3>
             <p>
-              A nurturing approach that supports growth without forcing outcomes.
-              It allows children to develop naturally in a safe environment.
+              A nurturing approach that supports growth and understand pace.
+              It provides a space in which unexpected things can happen, but it encourages
+              exploration, freedom, and creativity. 
+              To perserve the youth and childhood, but understand the trauma that may follow.
             </p>
-            <ul>
-                <li>Adapts to change</li>
-                <li>Encourages exploration</li>
-                <li>Supports emotional growth</li>
-                <li>Embraces unpredictability</li>
-                <li>Own pace, own growth</li>
-            </ul>
+            <div className="features">
+                <span>Adapts to change</span>
+                <span>Encourages exploration</span>
+                <span>Supports emotional growth</span>
+                <span>Embraces unpredictability</span>
+                <span>Own pace, own growth</span>
+            </div>
           </div>
 
         </div>
       </section>
 
       <section className="navButtons">
-        <Link to="/problem" className="btn">
+        <Link to="/problem" className="btn primary">
           Explore the Problem
         </Link>
 

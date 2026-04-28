@@ -14,8 +14,8 @@ import Resources from "./pages/Resources";
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
       <NavBar />
+      <Routes>
         <Route path="/home" element={<Home />} />
         <Route path="/problem" element={<Problem />} />
         <Route path="/cause" element={<Cause />} />
