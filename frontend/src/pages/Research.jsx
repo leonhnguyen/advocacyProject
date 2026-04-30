@@ -280,7 +280,7 @@ export default function Research() {
                     Do real solutions exist? 
                 </p>
 
-                <Link to="/solution" className="soln-button">
+                <Link to="/solutions" className="soln-button">
                     Potential Solutions
                 </Link>
                 </section>
