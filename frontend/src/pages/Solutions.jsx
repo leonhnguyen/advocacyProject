@@ -1,7 +1,7 @@
 import "../stylingPages/Solutions.css";
 
 export default function Solutions() {
-  return (
+  return(
     <div className="solutions-page">
 
       <section className="solutions-hero">
