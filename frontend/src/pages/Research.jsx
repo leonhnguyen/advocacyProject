@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import "../stylingPages/Research.css";
 
 export default function Research() {
