@@ -1,0 +1,39 @@
+.resources-page {
+  padding: 60px 20px;
+}
+
+.sources-list {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.source-card {
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+
+  transition: 0.2s;
+}
+
+.source-card:hover {
+  transform: translateY(-3px);
+}
+
+.source-card h3 {
+  margin-bottom: 8px;
+}
+
+.source-card p {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.source-card a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.source-card a:hover {
+  text-decoration: underline;
+}
