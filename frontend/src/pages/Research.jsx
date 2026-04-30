@@ -279,9 +279,9 @@ export default function Research() {
                     Do real solutions exist? 
                 </p>
 
-                <a href="/solutions" className="soln-button">
+                <Link to="/solution" className="soln-button">
                     Potential Solutions
-                </a>
+                </Link>
                 </section>
 
         </div>
